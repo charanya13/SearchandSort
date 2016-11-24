@@ -11,12 +11,12 @@ import Foundation
 
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate,UISearchDisplayDelegate,UISearchResultsUpdating{
-
+    
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     let textCellidenifier = "Cell"
-    
+    var github:String = ""
     var  meals = [Meal]()
     func loadSampleMeals()
     {

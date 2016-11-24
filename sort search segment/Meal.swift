@@ -10,6 +10,7 @@ import UIKit
 
 class Meal
 {
+    //this is a meal class
     
     var photo:UIImage
     var label1:String
